@@ -1,0 +1,107 @@
+html, body {
+  padding: 0px;
+  font-family: "Signika";
+  font-size: 24px;
+}
+
+p {
+  margin: 1rem auto;
+}
+
+a, span {
+  padding: 0.5rem 0.5rem;
+  color: inherit;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 750px;
+  box-sizing: margin-box;
+  margin: 4rem auto;
+  padding: 0.7rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+.acc {
+  font-family: "Overlock";
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#quote {
+  min-height: 5rem;
+}
+
+#quotee {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+#buttons {
+  color: #dddddd;
+  font-size: 0.75rem;
+}
+
+#tweet{
+  background-color: #333333;
+  float: left;
+  margin-bottom: 0.25rem;
+}
+
+#new {
+  background-color: #333333;
+  float: left;
+}
+
+#footer {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+  font-size: 2rem;
+}
+
+#bg-quotee {
+  font-weight: 900;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+@media all and (min-width: 300px){
+  #tweet{
+    background-color: #333333;
+    float: left;
+    margin-bottom: 0;
+  }
+  #new {
+    background-color: #333333;
+    float: right;
+  }
+}
+
+@media all and (min-width: 768px){
+  html, body{
+    font-size: 32px;
+  }
+  #quote {
+    min-height: 3.75rem;
+  }
+}
+
+@media all and (min-height: 520px), all and (min-width: 768){
+  #footer {
+    right: 5%;
+    display: block;
+  }
+}
