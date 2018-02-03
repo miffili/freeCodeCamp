@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="assets\stopclock.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Source+Code+Pro:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="interface">
+
+        <div class="timer-display">
+          25:00
+        </div>
+
+        <div class="settings">
+
+          <form class="setting-options">
+
+            <button type="button" class="toggle-timer" name="toggle-timer">Start</button>
+            <button type="button" class="reset-timer" name="reset-timer">Reset</button>
+            <button type="button" class="set-timer quad" id="inc" name="inc">&plus;</button>
+            <button type="button" class="set-timer quad" id="dec" name="dec">&minus;</button>
+            <button type="button" class="toggle-notification quad" name="toggle-notification"><i class="fa fa-ban off" id="no"></i><i class="fa fa-bell-o" id="notif"></i></button>
+
+          </form>
+
+          <div class="progress-bar">
+            <div id="progress" class="progress progress-bg-transition"></div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <audio id="doneSound" src="assets\Correct-answer.mp3"></audio>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

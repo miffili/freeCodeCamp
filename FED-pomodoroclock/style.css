@@ -1,0 +1,196 @@
+/* Setting the Root Font Size for Screen Sizes */
+
+:root {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  :root {
+    font-size: 30px;
+  }
+}
+
+/* App Styling */
+
+* {
+  outline: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  background: #ffd89b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom right,
+    #0d1f2d,
+    #19547b,
+    #ffd89b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom right,
+    #0d1f2d,
+    #19547b,
+    #ffd89b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fffcf2;
+}
+
+button {
+  padding: 0.4rem;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 300;
+  border: none;
+  border-radius: 5px;
+  color: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsla(46, 100%, 97%, 0.15);
+  text-shadow: 0px 0px 10px hsla(46, 100%, 97%, 0.25);
+}
+
+button:disabled {
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: none;
+  cursor: default;
+}
+
+.container {
+  height: 100vh;
+  background-color: hsla(0, 0%, 25%, 0.2);
+}
+
+.interface {
+  width: 100%;
+}
+
+.timer-display {
+  width: 95%;
+  margin-bottom: 1.5rem;
+  font-family: "Source Code Pro", monospace;
+  font-size: 8rem;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 0px 0px 2px #f5f5ef;
+}
+
+.settings {
+  min-width: 60%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: hsla(46, 100%, 97%, 0.3);
+  box-shadow: 0 0 0.5rem hsla(206, 55%, 11%, 0.1);
+}
+
+.setting-options {
+  padding: 0 1rem;
+}
+
+.setting-options > * {
+  margin: 0.2rem;
+}
+
+.toggle-timer {
+  width: 6rem;
+}
+
+.quad {
+  padding: 0;
+  margin: 0;
+  width: 2.5rem;
+}
+
+.toggle-notification {
+  width: 3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa {
+  position: absolute;
+}
+
+.fa-ban {
+  color: hsla(0, 100%, 20%, 0.25);
+  text-shadow: none;
+  transition: color 0.3s;
+}
+
+.off {
+  color: rgba(0, 0, 0, 0);
+}
+
+.progress-bar,
+.progress {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 0.4rem;
+  border-radius: 3px;
+}
+
+.progress-bar {
+  background-color: hsla(37, 100%, 95%, 0.2);
+}
+
+.progress {
+  background: hsla(37, 100%, 75%, 0.7);
+  transition: width 1s linear;
+}
+
+#no {
+  font-size: 3rem;
+}
+
+#notif {
+  font-size: 1.5rem;
+}
+
+/* App-Layout */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-options {
+  display: flex;
+  justify-content: center;
+}
+
+.setting-options > * {
+  flex-grow: 1;
+}
