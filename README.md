@@ -1,4 +1,4 @@
-In the beginning of my journey of becoming a programmer, I decided to go through the Front End Developer path of [freeCodeCamp](www.freecodecamp.org). In this repository I will store the submitted (& sometimes refactored) projects.
+In the beginning of my journey of becoming a programmer, I decided to go through the Front End Developer path of [freeCodeCamp](www.freecodecamp.org). In this repository I will store the submitted projects.
 
 Start:  September 16th 2017
 
