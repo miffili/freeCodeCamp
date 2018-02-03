@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets\wikipedia.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <title>Wikipedia Viewer</title>
+  </head>
+
+  <body>
+    <div class="flex-container">
+
+      <form id="customForm">
+        <img id="searchIcon" src="assets\003-search-1.png" alt="looking glass" title="Search Wikipedia">
+        <input id="wikiSearch" type="text" name="wikiSearch" value="" placeholder="What are you looking for?" autocomplete="off">
+        <a id="wikiRandom" href="https://en.wikipedia.org/wiki/Special:Random" title="Random Wikipedia Article" target="_blank">
+          <img src="assets\002-swirly-arrow.png" alt="random-arrow">
+        </a>
+      </form>
+
+      <div id="results">
+      </div>
+    </div>
+
+    <div id="copy">
+      <span id="info">i</span>
+      <span id="copytext">Icons made by
+        <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+      </span>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
