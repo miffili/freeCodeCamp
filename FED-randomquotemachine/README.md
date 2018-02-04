@@ -10,7 +10,7 @@ Fullfill the below **user stories**:
 I decided to code a simple version of this assignment without any libraries or APIs. The quotes are picked from different sources, all of them inspirational on the topic success/failure. The design should be as simple as possible, but with a little twist. The hue of the background changes randomly with every new quote, additionally the quotee is displayed tone-in-tone if the screen is big enough.
 
 #### Made with
-- HTML, CSS  
+- HTML, CSS, vanilla JavaScript  
 - Twitter Web Intent  
 ♥
 
