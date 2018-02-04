@@ -1,5 +1,3 @@
-### fCC-randomquotemachine
-
 #### Assignment
 Build a random quote machine. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fullfill the below **user stories**:
