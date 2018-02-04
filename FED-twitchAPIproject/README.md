@@ -1,4 +1,4 @@
-### Use the Twitch.tv JSON API for [freeCodeCamp](https://www.freecodecamp.org/challenges/show-the-local-weather)
+### Use the Twitch.tv JSON API for [freeCodeCamp](https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api)
 
 #### Assignment
 Use whichever libraries or APIs you need. Give it your own personal style.  
