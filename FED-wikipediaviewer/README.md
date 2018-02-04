@@ -1,4 +1,4 @@
-### Wikipedia Viewer for [freeCodeCamp](https://www.freecodecamp.org/challenges/show-the-local-weather)
+### Wikipedia Viewer for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer)
 
 #### Assignment
 Build a Wikipedia Viewer. Use whichever libraries or APIs you need. Give it your own personal style.  
