@@ -12,6 +12,7 @@ This is the first advanced project for freeCodeCamp. I was really thrilled to us
 
 #### Made with
 - HTML, CSS, vanilla JavaScript  
+- Favicon made by Freepik from [www.flaticon.com](www.flaticon.com) (licensed by CC 3.0 BY)  
 ♥
 
 #### Preview
