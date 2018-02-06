@@ -16,6 +16,6 @@ I decided to code a simple version of this assignment without any libraries or A
 
 #### Preview
 
-Check out the [live preview](https://miffili.github.io/freeCodeCamp/randomquotemachine)
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-randomquotemachine)
 
 ![Screenshot of the Random Quote Machine for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/90dec156baab70a3cd3c485d3e764e24c2a2207f/FED-randomquotemachine/preview/Random%20Quote%20Machine.png "Screenshot of the Random Quote Machine for freeCodeCamp")
