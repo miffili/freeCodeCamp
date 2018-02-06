@@ -17,6 +17,6 @@ This Pomodoro Clock was a super fun project to code with vanilla JavaScript. Add
 
 #### Preview
 
-Check out the [live preview](https://codepen.io/miffili/full/mpqwpp) on codepen
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-pomodoroclock)
 
 ![Screenshot of the Pomodoro Clock for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/87fd1d15e2ce356a577c0542eb213931e7f7a372/FED-pomodoroclock/preview/Pomodoro%20Clock.png "Screenshot of the Pomodoro Clock for freeCodeCamp")
