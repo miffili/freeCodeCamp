@@ -17,6 +17,6 @@ Another challenge using an API. I have to admit that familiarizing with the APIs
 
 #### Preview
 
-Check out the [live preview](https://codepen.io/miffili/full/qVgQGL/) on codepen
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-twitchAPIproject)
 
 ![Screenshot of the Twitch Previewer for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/eedaa8cedca760d16bab25af598e99035c6ae9fd/FED-twitchAPIproject/preview/2018-02-04%2015_19_17-favorite%20twitch%20channels.png "Screenshot of the Twitch Previewer for freeCodeCamp")
