@@ -16,7 +16,7 @@ This is the first advanced project for freeCodeCamp. I was really thrilled to us
 
 #### Preview
 
-Check out the [live preview](https://codepen.io/miffili/full/vpBYLL/) on codepen
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-JScalculator/)
 
 ![Screenshot of the JavaScript Calculator for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/94813beaca0986ac92882c9b7d4cfc9ed40141f4/FED-JScalculator/preview/Pure%20JavaScript%20Calculator.png "Screenshot of the JavaScript Calculator for freeCodeCamp")
 
