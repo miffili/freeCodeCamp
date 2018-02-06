@@ -13,6 +13,7 @@ This Pomodoro Clock was a super fun project to code with vanilla JavaScript. Add
 #### Made with
 - HTML, CSS, vanilla JavaScript  
 - notification sound from [www.orangefreesounds.com](www.orangefreesounds.com) (licensed by CC BY-NC 4.0)  
+- Favicon made by Freepik from [www.flaticon.com](www.flaticon.com) (licensed by CC 3.0 BY)  
 ♥
 
 #### Preview
