@@ -8,7 +8,7 @@ Fulfill the below **user stories**:
 - as a user, I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output
 
 #### Implementation
-This is the first advanced project for freeCodeCamp. I was really thrilled to use vanilla JavaScript again and excited because there was a lot to think of in order to publish a working calculator, e.g. not displaying outside of the calculator itself, no multiple zeros in the beginning of the input, allowing only one decimal point... :innocent:
+This is the first advanced project for freeCodeCamp. I was really thrilled to use vanilla JavaScript again and excited because there was a lot to think of in order to publish a working calculator, e.g. not displaying outside of the calculator itself, no multiple zeros in the beginning of the input, allowing only one decimal point...
 
 #### Made with
 - HTML, CSS, vanilla JavaScript  
