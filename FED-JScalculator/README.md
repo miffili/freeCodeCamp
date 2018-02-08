@@ -1,7 +1,7 @@
-### Build a JavaScript Calculator for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-javascript-calculator)
+### JavaScript Calculator for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-javascript-calculator)
 
 #### Assignment
-Use whichever libraries or APIs you need. Give it your own personal style.  
+Build a JavaScript calculator. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fulfill the below **user stories**:
 - as a user, I can add, subtract, multiply and divide two numbers  
 - as a user, I can clear the input field with a clear button  
