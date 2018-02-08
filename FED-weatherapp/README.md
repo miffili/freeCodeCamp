@@ -1,7 +1,7 @@
 ### Weather App for [freeCodeCamp](https://www.freecodecamp.org/challenges/show-the-local-weather)
 
 #### Assignment
-Use whichever libraries or APIs you need. Give it your own personal style.  
+Build a weather app that shows the local weather. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fulfill the below **user stories**:
 - as a user, I can see the weather in my current location  
 - as a user, I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather  
