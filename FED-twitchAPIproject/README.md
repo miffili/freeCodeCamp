@@ -1,7 +1,7 @@
-### Use the Twitch.tv JSON API for [freeCodeCamp](https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api)
+### Twitch.tv Previewer for [freeCodeCamp](https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api)
 
 #### Assignment
-Use whichever libraries or APIs you need. Give it your own personal style.  
+Use the Twitch.tv JSON API. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fulfill the below **user stories**:
 - as a user, I can see whether Free Code Camp is currently streaming on Twitch.tv  
 - as a user, I can click the status output & be sent directly to the Free Code Camp's Twitch.tv channel  
