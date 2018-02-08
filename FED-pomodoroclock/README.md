@@ -1,7 +1,7 @@
-### Build a Pomodoro Clock for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-pomodoro-clock)
+### Pomodoro Clock for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-pomodoro-clock)
 
 #### Assignment
-Use whichever libraries or APIs you need. Give it your own personal style.  
+Build a Pomodoro Clock. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fulfill the below **user stories**:
 - as a user, I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed  
 - as a user, I can reset the clock for my next pomodoro  
