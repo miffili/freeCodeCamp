@@ -1,0 +1,211 @@
+
+@media all and (min-width: 320px) {
+  :root {
+    font-size: 20px;
+  }
+
+  .background-symbols {
+    align-self: flex-end;
+    font-size: 10rem;
+  }
+}
+
+@media all and (min-width: 375px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media all and (min-width: 550px) {
+  :root {
+    font-size: 30px;
+  }
+}
+
+@media all and (min-width: 660px) {
+  .background-symbols {
+    align-self: center;
+    font-size: 14rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  :root {
+    font-size: 30px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  :root {
+    font-size: 35px;
+  }
+}
+
+* {
+  outline: none;
+  user-select: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vH;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  text-shadow: 0 0 .5rem black;
+}
+
+button {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 .2rem 0 rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 .005rem black;
+}
+
+.gradient-container {
+  width: 100vW;
+  height: 100%;
+  background: #112c26;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom left,
+    rgba(33, 38, 124, 1),
+    rgba(50, 93, 82, 1));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+  to bottom left,
+  rgba(33, 38, 124, 1),
+  rgba(50, 93, 82, 1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.background-symbols {
+  color: rgba(241, 243, 243, 0.03);
+  text-shadow: 0 0 0.05rem rgba(241, 243, 243, 0.75);
+  font-family: 'Indie Flower', cursive;
+  z-index: 1;
+  position: absolute;
+}
+
+.inactive {
+  opacity: 0.2;
+}
+
+.active {
+  opacity: 1;
+}
+
+.frame {
+  width: 14rem;
+  height: 17rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
+}
+
+.overlay {
+  height: 0%;
+  width: 13.5rem;
+  margin: 2rem 0.25rem;
+  position: absolute;
+  color: rgba(241, 243, 243, 1);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: height .15s linear;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.select {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.select > p {
+  grid-column: span 2;
+}
+
+.select button {
+  width: 3.5rem;
+  height: 3.5rem;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.end {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-weight: 400;
+}
+
+.end > p {
+  grid-column: span 2;
+  grid-row: 2 / 3;
+}
+
+.show {
+  height: 10rem;
+}
+
+.game-field {
+  width: 13rem;
+  height: 13rem;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-field > * {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 5px;
+  color: rgba(241, 243, 243, 1);
+  font-family: 'Indie Flower', cursive;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-field {
+  margin: 0 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-detail {
+  padding: 0.3rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.activeplayer {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+}
+
+#countX, #countO {
+  font-family: 'Indie Flower', cursive;
+}

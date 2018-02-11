@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway:300,400" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/resources/tic-tac-toe.png">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="gradient-container">
+
+      <div class="background-symbols">
+        <span id="X">X</span>
+        <span id="O">O</span>
+      </div>
+
+      <!-- Tic Tac Toe Game -->
+      <div class="frame">
+
+        <!-- Select Sign Field -->
+        <div class="select overlay">
+          <p>Select symbol!</p>
+          <button type="button" class="selectbtn" name="selectX">X</button>
+          <button type="button" class="selectbtn" name="selectO">O</button>
+        </div>
+        <!-- End Sign Field -->
+
+        <!-- Show Game End Field -->
+        <div class="end overlay">
+          <p class="gamestate">Draw!</p>
+        </div>
+        <!-- End Game End Field -->
+
+        <div class="game-field">
+
+          <div class="boxes" data-id="0"></div>
+          <div class="boxes" data-id="1"></div>
+          <div class="boxes" data-id="2"></div>
+
+          <div class="boxes" data-id="3"></div>
+          <div class="boxes" data-id="4"></div>
+          <div class="boxes" data-id="5"></div>
+
+          <div class="boxes" data-id="6"></div>
+          <div class="boxes" data-id="7"></div>
+          <div class="boxes" data-id="8"></div>
+
+        </div>
+
+        <div class="stats-field">
+
+          <div class="stats-detail" id="boxX">
+            <!-- <span class="player" id="signX">user</span> -->
+            <!-- <span id="countX">[0]</span> -->
+            <span id="signX"></span>
+            <span id="countX"></span>
+          </div>
+
+          <div class="stats-detail" id="boxO">
+            <!-- <span class="player" id="signO">cpu</span> -->
+            <!-- <span id="countO">[0]</span> -->
+            <span id="signO"></span>
+            <span id="countO"></span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
