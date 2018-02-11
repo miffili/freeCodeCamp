@@ -1,7 +1,7 @@
 ### Weather App for [freeCodeCamp](https://www.freecodecamp.org/challenges/show-the-local-weather)
 
 #### Assignment
-Use whichever libraries or APIs you need. Give it your own personal style.  
+Build a web app that shows the local weather. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fulfill the below **user stories**:
 - as a user, I can see the weather in my current location  
 - as a user, I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather  
@@ -20,6 +20,6 @@ If the user declines permission, the weather for [Null Island](https://en.wikipe
 
 #### Preview
 
-Check out the [live preview](https://codepen.io/miffili/full/ZaVQGm/) on codepen
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-weatherapp)
 
 ![Screenshot of the Weather App for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/b56a6fbfb9cc5618366201a7053e0d5207332d3b/FED-weatherapp/preview/Weather%20App.png "Screenshot of the Weather App for freeCodeCamp")

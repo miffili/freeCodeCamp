@@ -17,6 +17,6 @@ Another challenge using an API. I have to admit that familiarizing with the APIs
 
 #### Preview
 
-Check out the [live preview](https://codepen.io/miffili/full/wPLGQr/) on codepen
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-wikipediaviewer)
 
 ![Screenshot of the Wikipedia Viewer for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/25f347e256804d53b0b046f2002834678470469c/FED-wikipediaviewer/preview/2018-02-04%2012_29_01-Wikipedia%20Viewer.png "Screenshot of the Wikipedia Viewer for freeCodeCamp")
