@@ -8,7 +8,7 @@ Fulfill the below **user stories**:
 - as a user, I can choose whether I want to play as X or O
 
 #### Implementation
-The last two projects for the Front End Development Certificate are games. The Tic Tac Toe was a challenge in terms of building the AI for the cpu. With this project I got a better understand of recursion and the minimax algorithmus. Once I figured it all out it was really fun to build this game.
+The last two projects for the Front End Development Certificate are games. The Tic Tac Toe was a challenge in terms of building the AI for the cpu. With this project I got a better understanding of recursion and the minimax algorithmus. Once I figured it all out it was really fun to build this game.
 
 #### Made with
 - HTML, CSS, vanilla JavaScript  
