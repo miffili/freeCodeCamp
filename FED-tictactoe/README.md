@@ -13,3 +13,9 @@ The last two projects for the Front End Development Certificate are games. The T
 #### Made with
 - HTML, CSS, vanilla JavaScript  
 ♥
+
+#### Preview
+
+Check out the [live preview](https://miffili.github.io/freeCodeCamp/FED-tictactoe)
+
+![Screenshot of the TicTacToe game for freeCodeCamp](https://raw.githubusercontent.com/Miffili/freeCodeCamp/cf9b46ef709e9672124cc2083788ab6d906e9ada/FED-tictactoe/preview/miffili-preview-tictactoe.png "Screenshot of the TicTacToe game for freeCodeCamp")
