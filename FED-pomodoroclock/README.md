@@ -1,7 +1,7 @@
-### Pomodoro Clock for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-simon-game)
+### Simon Game for [freeCodeCamp](https://www.freecodecamp.org/challenges/build-a-simon-game)
 
 #### Assignment
-Build a Pomodoro Clock. Use whichever libraries or APIs you need. Give it your own personal style.  
+Build a Simon Game. Use whichever libraries or APIs you need. Give it your own personal style.  
 Fulfill the below **user stories**:
 - as a user, I am presented with a random series of button presses  
 - each time I input a series of button presses correctly, I see the same series of button presses but with an additional step  
