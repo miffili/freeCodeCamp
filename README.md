@@ -13,4 +13,4 @@ Advanced Front End Development Projects
 [📺](https://miffili.github.io/freeCodeCamp/FED-pomodoroclock "live preview") [Build a Pomodoro Clock](https://github.com/Miffili/freeCodeCamp/tree/master/FED-pomodoroclock "project")  
 [📺](https://miffili.github.io/freeCodeCamp/FED-tictactoe/ "live preview") [Build a TicTacToe Game](https://github.com/Miffili/freeCodeCamp/tree/gh-pages/FED-tictactoe "project")  
 
-⬜ Build a Simon Game
+⬜ [Build a Simon Game](https://github.com/Miffili/freeCodeCamp/tree/gh-pages/FED-simongame "project") [:construction: WIP :construction:]
