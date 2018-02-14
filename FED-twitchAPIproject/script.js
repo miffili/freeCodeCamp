@@ -36,7 +36,7 @@ function fetchStreamData(el){
         var streamChannelStatus = streamData[el].stream.channel.status.substring(0, 40);
         streamChannelStatus += "...";
       }
-      $(`#${el} .stream-info`).html(`${streamChannelStatus}`);
+      $(`#${el} .stream-info`).html(`<a href="${streamData[el].stream.channel.url}">${streamChannelStatus}</a>`);
     }
   });
 }
