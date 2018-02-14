@@ -1,10 +1,10 @@
-##Progress of this Project
+## Progress of this Project
 
-###Corresponding Pen
+### Corresponding Pen
 
 [Glowing Sphere](https://codepen.io/miffili/pen/ZvZVrZ)
 
-###Log
+### Log
 
 *Feb132018*  
 * alter HTML for better JS handling  
