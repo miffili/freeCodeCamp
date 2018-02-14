@@ -1,4 +1,4 @@
-In the beginning of my journey of becoming a programmer, I decided to go through the Front End Developer path of [freeCodeCamp](www.freecodecamp.org). Since September 2017 I've been working on the Front End Development Certificate. After learning the basics of HTML, CSS & JavaScript as well as jQuery & Bootstrap, I started the Intermediate Section in November 2017 & the Advanced Section in December 2017.
+In the beginning of my journey of becoming a programmer, I decided to go through the Front End Developer path of [freeCodeCamp](www.freecodecamp.org). Since September 2017 I've been working on the Front End Development Certificate. After learning the basics of HTML, CSS & JavaScript as well as jQuery & Bootstrap, I started the intermediate section in November 2017 & the Advanced Section in December 2017.
 
 Intermediate Front End Development Projects
 
