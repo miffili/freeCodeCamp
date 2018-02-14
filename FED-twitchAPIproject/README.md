@@ -7,7 +7,7 @@ Fulfill the below **user stories**:
 - as a user, I can click the status output & be sent directly to the Free Code Camp's Twitch.tv channel  
 
 #### Implementation
-Another challenge using an API. I have to admit that familiarizing with the APIs took a little longer this time. But it worked out all just fine in the end. With this project, I decided to stick with certain style elements to achieve a certain look throughout all of the intermediate & advanced projects. After all cutting down on choices to make is what made a lot of people successful. :wink: 
+Another challenge using an API. I have to admit that familiarizing with the API took a little longer this time. But it all worked out just fine in the end. With this project, I decided to stick with certain style elements to achieve a similar look throughout all of the intermediate & advanced projects.
 
 #### Made with
 - HTML, CSS, JavaScript  
