@@ -14,4 +14,6 @@ Advanced Front End Development Projects
 [📺](https://miffili.github.io/freeCodeCamp/FED-tictactoe/ "live preview") [Build a TicTacToe Game](https://github.com/Miffili/freeCodeCamp/tree/gh-pages/FED-tictactoe "project")  
 [📺](https://miffili.github.io/freeCodeCamp/FED-simongame/ "live preview") [Build a Simon Game](https://github.com/Miffili/freeCodeCamp/tree/gh-pages/FED-simongame "project")
 
-<a href="https://www.freecodecamp.org/miffili/front-end-certification" title="Front End Development Certificate on freeCodeCamp" style="text-decoration: none; color: black;">:scroll: My freeCodeCamp Front End Development Certificate</a>
+My freeCodeCamp Front End Development Certificate
+
+» <a href="https://www.freecodecamp.org/miffili/front-end-certification" title="Front End Development Certificate on freeCodeCamp">:scroll:</a>
