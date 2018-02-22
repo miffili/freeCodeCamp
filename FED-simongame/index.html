@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu:300" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/resources/favicon-disc.png">
+    <title>Simon Game</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="ball-container">
+        <button data-id="0" class="ball yellow"></button>
+        <button data-id="1" class="ball green"></button>
+        <button data-id="2" class="ball blue"></button>
+        <button data-id="3" class="ball red"></button>
+      </div>
+
+      <div class="menu">
+        <button type="button" name="button" class="setting energy">ON</button>
+        <button type="button" name="button" class="setting toggle" disabled>START</button>
+        <button type="button" name="button" class="setting strict" disabled>STRICT</button>
+        <div class="step-display no-display">
+            <span class="counter-display">00</span>|<span class="total-display">00</span>
+        </div>
+      </div>
+
+      <div class="game-end">
+        You won! 🎉
+      </div>
+
+    </div>
+
+    <audio data-id="0" class="piano yellow" src="resources/Piano.mf.G3.mp3"></audio>
+    <audio data-id="1" class="piano green" src="resources/Piano.mf.B3.mp3"></audio>
+    <audio data-id="2" class="piano blue" src="resources/Piano.mf.D4.mp3"></audio>
+    <audio data-id="3" class="piano red" src="resources/Piano.mf.G4.mp3"></audio>
+    <audio class="buzzer" src="resources/buzzer.mp3"></audio>
+    <audio class="gameover" src="resources/gameover.mp3"></audio>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

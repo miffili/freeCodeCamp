@@ -1,0 +1,314 @@
+:root {
+  font-size: calc(3.5vW);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none
+}
+
+*:active {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  background-color: rgb(45, 45, 45);
+}
+
+button {
+  cursor: pointer;
+  color: rgba(51, 51, 51, 1);
+}
+
+button:disabled {
+  cursor: auto;
+  color: rgba(51, 51, 51, .8);
+}
+
+.container {
+  width: 100vW;
+  height: 100vH;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball-container {
+  width: 75vW;
+  height: 25vH;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ball, .ball::after, .ball::before {
+  min-width: 4.5rem;
+  min-height: 4.5rem;
+  border-radius: 50%;
+  border-style: none;
+  transition: all 0.25s linear;
+  position: relative;
+}
+
+.ball {
+  box-shadow: none;
+  opacity: 0.075;
+}
+
+.ball:nth-child(1), .ball:nth-last-child(1) {
+  margin-top: 3rem;
+}
+
+.ball::after, .ball::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 7rem;
+  pointer-events: none;
+}
+
+.yellow {
+  background: hsla(58, 100%, 75%, 1);  /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    hsla(58, 100%, 75%, 1) 15%,
+    hsla(58, 100%, 55%, 1) 50%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    hsla(58, 100%, 75%, 1) 15%,
+    hsla(58, 100%, 55%, 1) 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.yellow.show {
+  box-shadow: 0 0 1.75rem hsla(58, 100%, 75%, 0.5);
+}
+
+.yellow::after {
+  background: hsla(58, 100%, 75%, 0.07);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    hsla(58, 100%, 75%, 0.1),
+    hsla(58, 100%, 75%, 0.02));
+  background: linear-gradient(
+    to bottom,
+    hsla(58, 100%, 75%, 0.1),
+    hsla(58, 100%, 75%, 0.05));
+}
+
+.yellow::before {
+  box-shadow: 0 0 3rem hsla(58, 100%, 75%, 0.04);
+}
+
+.green {
+  background: hsla(129, 73%, 47%, 1);  /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    hsla(129, 73%, 62%, 1) 15%,
+    hsla(129, 73%, 47%, 1) 50%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    hsla(129, 73%, 62%, 1) 15%,
+    hsla(129, 73%, 47%, 1) 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.green.show {
+  box-shadow: 0 0 1.75rem hsla(129, 73%, 62%, 0.6);
+}
+
+.green::after {
+  background: hsla(129, 73%, 62%, 0.07);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    hsla(129, 73%, 62%, 0.1),
+    hsla(129, 73%, 62%, 0.02));
+  background: linear-gradient(
+    to bottom,
+    hsla(129, 73%, 62%, 0.1),
+    hsla(129, 73%, 62%, 0.05));
+}
+
+.green::before {
+  box-shadow: 0 0 3rem hsla(129, 73%, 62%, 0.04);
+}
+
+.blue {
+  background: hsla(217, 84%, 51%, 1);  /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    hsla(217, 84%, 60%, 1) 15%,
+    hsla(217, 84%, 51%, 1) 50%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    hsla(217, 84%, 60%, 1) 15%,
+    hsla(217, 84%, 51%, 1) 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blue.show {
+  box-shadow: 0 0 1.75rem hsla(217, 84%, 60%, 0.8);
+}
+
+.blue::after {
+  background: hsla(217, 84%, 60%, 0.07);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    hsla(217, 84%, 60%, 0.1),
+    hsla(217, 84%, 60%, 0.02));
+  background: linear-gradient(
+    to bottom,
+    hsla(217, 84%, 60%, 0.1),
+    hsla(217, 84%, 60%, 0.05));
+}
+
+.blue::before {
+  box-shadow: 0 0 3rem hsla(217, 84%, 60%, 0.04);
+}
+
+.red {
+  background: hsla(0, 84%, 48%, 1);  /* fallback for old browsers */
+  background: -webkit-radial-gradient(
+    hsla(0, 84%, 65%, 1) 15%,
+    hsla(0, 84%, 48%, 1) 50%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: radial-gradient(
+    hsla(0, 84%, 65%, 1) 15%,
+    hsla(0, 84%, 48%, 1) 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.red.show {
+  box-shadow: 0 0 1.75rem hsla(0, 84%, 65%, 0.8);
+}
+
+.red::after {
+  background: hsla(0, 84%, 65%, 0.07);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    hsla(0, 84%, 65%, 0.1),
+    hsla(0, 84%, 65%, 0.02));
+  background: linear-gradient(
+    to bottom,
+    hsla(0, 84%, 65%, 0.1),
+    hsla(0, 84%, 65%, 0.05));
+}
+
+.red::before {
+  box-shadow: 0 0 3rem hsla(0, 84%, 65%, 0.04);
+}
+
+.show {
+  animation-name: show;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+}
+
+@keyframes show {
+  0%  {opacity: 0.075;}
+  50% {opacity: 1;}
+  100% {opacity: 0.075;}
+}
+
+.menu {
+  width: auto;
+  /* height: 30%; */
+  padding: 0.25rem;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+.setting {
+  margin: .25rem;
+  padding: 0.2rem 0.5rem;
+  min-width: 4rem;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.strict::after {
+  content: '';
+  display: block;
+  float: right;
+  margin: 0.2rem 0 0 0.2rem;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.strict-active::after {
+  background: rgba(255, 75, 75, 1);
+  border: 0.01rem solid rgba(255, 150, 150, 1);
+  box-shadow: 0 0 0.25rem rgba(255, 150, 150, 1);
+  box-sizing: border-box;
+}
+
+.step-display {
+  margin: .25rem;
+  padding: 0.2rem .5rem;
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+  line-height: 1.175rem;
+  background: #222;
+  border-radius: 5px;
+  color: rgba(200, 200, 200, 1);
+  letter-spacing: 0.075rem;
+  transition: color 0.5s ease-in;
+}
+
+.no-display {
+  color: rgba(100, 100, 100, 0.15);
+}
+
+.game-end {
+  width: 95%;
+  height: 90%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: -1;
+  opacity: 0;
+}
+
+.visible {
+  animation-name: visible;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  z-index: 3;
+}
+
+@keyframes visible {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@media (min-width: 1024px) {
+  :root {
+    font-size: calc(3vW);
+  }
+  .ball-container {
+    width: 65vW;
+  }
+}
+
+@media (min-width: 1281px) {
+  :root {
+    font-size: calc(2vW);
+  }
+
+  .ball-container {
+    width: 50vW;
+  }
+}
