@@ -16,4 +16,4 @@ Advanced Front End Development Projects
 
 My freeCodeCamp Front End Development Certificate
 
-» <a href="https://www.freecodecamp.org/miffili/front-end-certification" title="Front End Development Certificate on freeCodeCamp">:scroll:</a>
+<a href="https://www.freecodecamp.org/miffili/front-end-certification" title="Front End Development Certificate on freeCodeCamp">📜</a>
