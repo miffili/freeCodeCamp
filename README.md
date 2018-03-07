@@ -16,4 +16,4 @@ Advanced Front End Development Projects
 
 My freeCodeCamp Front End Development Certificate
 
-[![freeCodeCamp Front End Development Certificate of Klara Fleischmann](https://i.imgur.com/ToFZKBd.jpg)](https://www.freecodecamp.org/miffili/front-end-certification "freeCodeCamp Front End Development Certificate")
+<a href="https://www.freecodecamp.org/miffili/front-end-certification" title="Front End Development Certificate on freeCodeCamp">📜</a>
